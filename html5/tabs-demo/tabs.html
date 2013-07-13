@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Moo4q Tab Class Demonstration</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">	
+	<script type="text/javascript" charset="utf-8" src="moo4q/jquery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="moo4q/mootools-base.js"></script>
+	<script type="text/javascript" charset="utf-8" src="moo4q/Class.Mutators.jQuery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="classes/Tabs.js"></script>
+	<script type="text/javascript" charset="utf-8" src="classes/Tabs.Ajax.js"></script>
+	<script type="text/javascript" charset="utf-8" src="demo.js"></script>
+</head>
+
+<body>
+	<div id=pane class=pane>
+		<div class=nav>
+			<a href="#">Tabs.js</a>
+			<a href="#">Options &amp; Events</a>
+			
+		</div>
+		<div class=section>
+			<h1>About</h1>
+			<p>This is a simple Tab class to illustrate how to use <a href="http://moo4q.com">moo4q</a> (mootools for jQuery.)  It has a handful of methods for creating a basic tab plugin.  Moo4q automatically extends the jQuery prototype with a tab method so using the plugin has a familiar syntax:
+			</p>
+			<pre><code>// jQuery API
+$('#pane').tabs(options)</code>
+
+// regular javascript
+var myTabs = new Tabs('#pane', options);</pre>
+			<p>
+				Looking at the source is the best way to see what's going on, it's full of comments too. But this page also has some good information as you click through the tabs.
+		 	</p>
+		</div>
+		<div class=section>
+			<h1>Options &amp; Events</h1>
+			<p>
+				Think of options as "defaults" or "settings" of regular jQuery plugins.  If you don't provide any, your instance will use the default options.  You pass the options in to a moo4q class the same as a regular plugin:
+			</p>
+			<pre><code>$('#pane').tabs({
+  tab: 'a', 
+  content: '.section'
+});</code></pre>
+			<p>
+				MooTools classes can have their own custom events.  This class has a <code>show</code> event.  In jQuery they are often called "callbacks."  This tab instance added an event like this: <code>#('#pane').tabs('addEvent','show', fn)</code>, and the function toggles the class the of the body, you'll notice the background color changes as you click through the tabs.
+			</p>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

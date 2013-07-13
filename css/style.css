@@ -1,0 +1,105 @@
+body, html 
+{
+	margin: 0px 0px 0px 0px;
+	height:100%;
+	min-height:100%;
+	width:100%;
+}
+	.left_link{
+	margin-left:15px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#006699
+	}
+	.right_link{
+	float:left;
+	margin-left:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#006699
+	}
+	img{
+border-style:none;
+}
+#search_box {
+	width:100%;
+	height:100%;
+	float:left;
+	}
+	.home{
+		
+		text-decoration:none; 
+	color:#09F;
+	}
+.home:hover {
+	text-decoration:underline;
+	}
+	
+label {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#006699;
+	}
+	.searchform1 {
+	display: inline-block;
+	zoom: 1; /* ie7 hack for display:inline-block */
+	*display: inline;
+	border: solid 1px #d2d2d2;
+	padding: 3px 5px;
+	margin-top:5px;
+	position:relative;
+
+	-webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+	box-shadow: 0 1px 0px rgba(0,0,0,.1);
+
+	background: #f1f1f1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie7 */
+	-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie8 */
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	border-radius:4px 4px 4px 4px;
+}
+.searchform1 input {
+	font: normal 12px/100% Arial, Helvetica, sans-serif;
+	color:#999;
+}
+.searchform1 .searchfield1 {
+	background:#FFF;
+	width: 420px;
+	height:20px;
+	border: solid 1px #CCC;
+	outline: none;
+	padding-left:5px;
+	
+	
+	
+	}
+.searchform1 .searchbutton1 {
+	height:25px;
+	color: #fff;
+	text-shadow: 0 3px 3px rgba(0,0,0,.6);
+	background: #999;
+	}
+#right_content {
+	height:100%;
+	width:100%;
+	float:left;
+	}
+	#footer {
+	background:#FFF;
+	height:20px;
+	width:90%;
+	margin-top:10px;
+	margin-left:5%;
+	}
+	.right{
+	float:right;
+	text-decoration:none;
+	
+	
+	padding-right:90px;
+	}

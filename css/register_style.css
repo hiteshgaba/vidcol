@@ -1,0 +1,12 @@
+#detail {
+	background:#000;
+	height:250px;
+	width:90%;
+	margin:17% 0% 0% 2.2%;
+	position:relative;
+	}	
+.input{
+	-moz-box-shadow: 2px 2px 2px 2px #ccc;
+	-webkit-box-shadow: 2px 2px 2px 2px #ccc;
+	box-shadow: 2px 2px 2px 2px #ccc;	
+	}

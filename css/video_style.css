@@ -1,0 +1,178 @@
+.video1 {
+	height:80px;
+	width:94%;
+	margin-left:2%;
+	margin-top:2%;
+	border-bottom-style:solid;
+	border-bottom-color:#ccc;
+	border-bottom-width:1px;
+	cursor:pointer;
+	}
+.video1:hover {
+	background-color:#ccc;
+	}
+.downbut{
+	margin-top:20px;
+	margin-left:45px;
+	background-color:#fff;
+	width:610px;
+	height:30px;
+	}
+.numlike{
+	margin-top:10px;
+	width:48%;
+	height:100%;
+	text-align:right;
+	float:left;
+	color:#777;
+	padding-right:1px;
+	font-size:13px;
+	}
+.num{
+	width:202px;
+	height:17px;
+	float:right;
+	}
+.numdislike{
+	margin-top:10px;
+	font-size:13px;
+	width:48%;
+	height:100%;
+	color:#777;
+	padding-left:0px;
+	float:left;
+	}
+.like{
+	margin-left:-2px;
+	width:63px;
+	height:25px;
+	background-image:url(../inc/like.png);
+	float:left;
+	cursor:pointer;
+	border:none;
+	}
+.like:hover{
+	background-image:url(../inc/like%20-%20Copy.png);
+	}
+.dislike{
+	margin-left:-1px;
+	width:30px;
+	height:25px;
+	cursor:pointer;
+	background-image:url(../inc/dislike.png);
+	float:left;
+	border:none;
+	}
+.dislike:hover{
+	background-image:url(../inc/dislike%20-%20Copy.png);
+	}
+.downloadbutton1{
+	float:left;
+	height:27px;
+	width:70px;	
+	color: #fff;
+	border:none;	
+	text-shadow: 0 3px 3px rgba(0,0,0,.6);
+	background-image:url(../inc/down.png);
+	cursor:pointer;	
+	}
+.downloadbutton1:hover{
+	background-image:url(../inc/down2.png);
+	}
+.video_name{
+	width:90.5%;
+ 	height:30px;
+ 	padding-left:50px;	
+ 	font-family:"Lucida Grande","bitstream vera sans","trebuchet ms",verdana,arial;
+	color:#000;
+ 	font-size:25px;
+ 	margin-top:5px;
+ 	font-weight:400;
+ 	}
+.pic_div{
+	width:95%;
+	margin-left:2.5%;
+	margin-top:1.5%;
+	background-color:#000;
+	height:95%;
+	}
+.suggest{
+	height:20px;
+	margin-top:20px;
+	padding-left:5px;
+	background-color:#fff;
+	color:#777;
+	font-size:15px;
+    font-family:"Lucida Grande","bitstream vera sans","trebuchet ms",verdana,arial;
+	}
+.video_snap{
+	float:left;
+	width:40%;
+	height:90%;
+	margin-top:2%;
+	border-style:solid;
+	border-color:#ccc;
+	border-width:1px;
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	-border-radius:2px 2px 2px 2px;
+	}
+.video_desc{
+	float:right;
+	padding-top:3px;
+	padding-left:3px;
+	width:57%;
+	height:90%;
+	margin-top:2%;
+	}
+.non-dim {
+	z-index:99999;
+	position:relative;
+	color:#FF0000;
+	background:#fff;
+	height:380px;
+	width:610px;
+	position:relative;
+	margin:10px 40px 0px 45px;
+	-moz-box-shadow: 2px 2px 2px 2px #ccc;
+	-webkit-box-shadow: 2px 2px 2px 2px #ccc;
+	box-shadow: 2px 2px 2px 2px #ccc;	
+	}
+.com{
+	margin-left:45px;
+	}
+#non-dim {
+	z-index:99999;
+	position:relative;
+	color:#FF0000;
+	background:#fff;
+	height:380px;
+	width:610px;
+	position:relative;
+	margin:10px 40px 0px 45px;
+	-moz-box-shadow: 2px 2px 2px 2px #ccc;
+	-webkit-box-shadow: 2px 2px 2px 2px #ccc;
+	box-shadow: 2px 2px 2px 2px #ccc;	
+	}
+.darkenBackground {
+	background-color: rgb(0, 0, 0);
+	opacity: 0.7; /* Safari, Opera */
+	-moz-opacity:0.70; /* FireFox */
+	filter: alpha(opacity=70); /* IE */
+	z-index: 20; 
+	height: 100%;
+	width: 100%;	
+	background-repeat:repeat;
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	}
+.highZ {
+	z-index: 50;
+	position:absolute;
+	top: 120px;
+	width:100%;
+	}
+img {
+	border:0;
+	}

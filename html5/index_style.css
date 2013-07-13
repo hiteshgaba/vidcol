@@ -1,0 +1,148 @@
+body{
+
+}
+.pic_container {
+	border:1px 1px 1px 1px;
+	border-width:1px;
+	border:solid #cccccc thin;
+	text-decoration:none;
+	height:96px;
+	width:174px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-border-radius:5px 5px 5px 5px;
+	}
+.pic_div{
+	width:170px;
+	margin-left:1.2%;
+	margin-top:1.6%;
+	background:#FFF;
+	height:90px;
+	}
+.video_snap{
+	float:left;
+	width:178px;
+	height:95px;
+	margin-top:2%;
+	border-style:solid;
+	border-color:#ccc;
+	border-width:1px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	-border-radius:5px 5px 5px 5px;
+	}
+	.video_desc{
+	float:left;
+	padding-top:3px;
+	padding-left:3px;
+	width:57%;
+	height:90px;
+	
+	margin-top:2%;
+	}
+	.video1 {
+	height:170px;
+	margin-left:2%;
+	margin-top:2%;
+	border-bottom:solid 1px #ccc;
+	
+	cursor:pointer;
+	}	
+.heading {
+	margin-top:10px;
+	width:90%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding-left:25px;
+	border-bottom:solid 1px #ccc;
+	}
+			 
+.category {
+	height:160px;
+	width:100%;
+	margin-top:15px;
+	margin-left:50px;
+	}
+
+.video {
+	height:170px;
+	width:180px;
+	margin-left:40px;
+	margin-top:1%;
+	float:left;
+	}
+img {
+	border:0;
+	}
+	.numlike{
+	margin-top:10px;
+	width:48%;
+	height:100%;
+	text-align:right;
+	float:left;
+	color:#666;
+	padding-right:1px;
+	font-size:13px;
+
+	}
+.num{
+	width:202px;
+	height:17px;
+	float:right;
+	margin-bottom:10px;
+	}
+.numdislike{
+	margin-top:10px;
+	font-size:13px;
+	width:48%;
+	height:100%;
+	color:#666;
+	padding-left:0px;
+	float:left;
+	}
+.like{
+	margin-left:-2px;
+	width:60px;
+	height:25px;
+	background:url(inc/like%20-%20Copy.png);
+
+	float:left;
+	cursor:pointer;
+	border:none;
+	}
+
+.dislike{
+	margin-left:-1px;
+	width:30px;
+	height:25px;
+	cursor:pointer;
+	background:url(inc/dislike%20-%20Copy.png);
+	float:left;
+	border:none;
+	}
+
+.downloadbutton1{
+	float:left;
+	height:27px;
+	width:70px;	
+	color: #fff;
+	border:none;	
+	text-shadow: 0 3px 3px rgba(0,0,0,.6);
+	background-image:url(/inc/down.png);
+	cursor:pointer;	
+	}
+.downloadbutton1:hover{
+	background-image:url(/inc/down2.png);
+	}
+.video_name{
+	width:90.5%;
+ 	height:30px;
+ 	padding-left:50px;	
+ 	font-family:helvetica;
+	color:#000;
+	text-align:left;
+ 	font-size:25px;
+ 	margin-top:10px;
+	margin-bottom:10px;
+ 	font-weight:400;
+ 	}
